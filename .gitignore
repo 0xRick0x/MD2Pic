@@ -1,0 +1,43 @@
+# Dependencies
+node_modules
+.pnpm-store
+.pnpm-debug.log
+
+# Build
+dist
+build
+.next
+.turbo
+out
+.tauri
+src-tauri/target
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+coverage
+*.lcov
+playwright-report
+test-results
+
+# Logs
+logs
+*.log
+
+# Misc
+*.local
+.cache
+.temp
